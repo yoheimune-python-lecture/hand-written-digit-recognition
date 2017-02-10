@@ -3,6 +3,7 @@
 手書きで0〜9のいずれかの数値を書くと、それが何なのかを判定して画面に表示します.
 ***
 ![手書き文字を判定しよう](https://raw.githubusercontent.com/yoheimune-python-lecture/hand-written-digit-recognition/image/resources/screenshot.png)
+[デモはこちら](http://demo-digit-recognition.paint-ink.com/)  
 
 # 演習の準備
 以下の手順で演習を進めることができます。
