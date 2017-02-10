@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>手書き文字を判定するアプリ</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <style>
+        #canvas {
+            display: block;
+            width: 300px;
+            height: 300px;
+            border: 1px solid #ccc;
+        }
+        .flex-box {
+            display: flex;
+            justify-content: center;
+        }
+        #judgeButton {
+            margin: 10px;
+        }
+        #result {
+            width: 300px;
+            height: 300px;
+            border: 1px solid #ccc;
+            font-size: 200px;
+            text-align: center;
+            line-height: 300px;
+        }
+        .arrow {
+            line-height: 300px;
+            margin: 0 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; margin-bottom: 0;">手書き文字を判定しよう</h1>
+    <p style="text-align: center;">(Flaskと機械学習のサンプル)</p>
+    <div class="flex-box">
+        <div>
+            <p style="text-align:center;margin:0;">▼フリーハンドで書いてみる(一筆書き)▼</p>
+            <canvas id="canvas" width="300" height="300" class="mdl-card mdl-shadow--2dp"></canvas>
+            <button id="delButton" class="mdl-button mdl-js-button mdl-button--primary mdl-js-ripple-effect" style="margin-top:10px;">消す</button>
+        </div>
+        <div class="arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+        <div>
+            <p style="text-align:center;margin:0;">▼判定結果だよー▼</p>
+            <div id="result" class="mdl-card mdl-shadow--2dp"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/static/app.js"></script>
+</body>
+</html>
