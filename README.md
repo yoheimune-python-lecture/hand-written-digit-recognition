@@ -10,7 +10,7 @@
 ## レポジトリの取得
 以下の要領で、レポジトリを取得してローカルにソースコードを持ってきます.
 ```
-$ git clone https://github.com/yoheimune-python-lecture/chatbot-news.git
+$ git clone git@github.com:yoheimune-python-lecture/hand-written-digit-recognition.git
 ```
 ## 必要ライブラリのインストール
 `Flask`と `BeautifulSoup` を使うのでそれらを `pip`でインストールします.
@@ -18,6 +18,7 @@ $ git clone https://github.com/yoheimune-python-lecture/chatbot-news.git
 $ pip3 install --upgrade flask
 $ pip3 install --upgrade numpy
 $ pip3 install --upgrade matplotlib
+$ pip3 install --upgrade scipy
 $ pip3 install --upgrade scikit-learn
 ```
 ## 起動確認
@@ -28,7 +29,7 @@ $ python3 app.py
 ```
 以下のURLでアクセス可能です。
 ```
-http://localhost:5001
+http://localhost:5002
 ```
 
 # 基礎課題
