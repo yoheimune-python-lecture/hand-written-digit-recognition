@@ -15,6 +15,7 @@ $ git clone git@github.com:yoheimune-python-lecture/hand-written-digit-recogniti
 ## 必要ライブラリのインストール
 `Flask`と `BeautifulSoup` を使うのでそれらを `pip`でインストールします.
 ```
+$ pip3 install --upgrade beautifulsoup4
 $ pip3 install --upgrade flask
 $ pip3 install --upgrade numpy
 $ pip3 install --upgrade matplotlib
