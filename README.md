@@ -10,23 +10,22 @@
 ## レポジトリの取得
 以下の要領で、レポジトリを取得してローカルにソースコードを持ってきます.
 ```
-$ git clone git@github.com:yoheimune-python-lecture/hand-written-digit-recognition.git
+git clone git@github.com:yoheimune-python-lecture/hand-written-digit-recognition.git
 ```
 ## 必要ライブラリのインストール
-`Flask`と `BeautifulSoup` を使うのでそれらを `pip`でインストールします.
+利用するライブラリを `pip`でインストールします.
 ```
-$ pip3 install --upgrade beautifulsoup4
-$ pip3 install --upgrade flask
-$ pip3 install --upgrade numpy
-$ pip3 install --upgrade matplotlib
-$ pip3 install --upgrade scipy
-$ pip3 install --upgrade scikit-learn
+pip3 install --upgrade flask
+pip3 install --upgrade numpy
+pip3 install --upgrade matplotlib
+pip3 install --upgrade scipy
+pip3 install --upgrade scikit-learn
 ```
 ## 起動確認
 まずは起動してみて動くことを確認します.
 ```
-$ cd practice
-$ python3 app.py
+cd practice
+python3 app.py
 ```
 以下のURLでアクセス可能です。
 ```
