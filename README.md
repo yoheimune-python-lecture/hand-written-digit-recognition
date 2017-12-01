@@ -10,7 +10,10 @@
 ## レポジトリの取得
 以下の要領で、レポジトリを取得してローカルにソースコードを持ってきます.
 ```
-git clone git@github.com:yoheimune-python-lecture/hand-written-digit-recognition.git
+git clone https://github.com/yoheimune-python-lecture/hand-written-digit-recognition.git
+
+# ダウンロードしたフォルダに映る
+cd hand-written-digit-recognition
 ```
 ## 必要ライブラリのインストール
 利用するライブラリを `pip`でインストールします.
