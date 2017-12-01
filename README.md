@@ -10,9 +10,12 @@
 ## レポジトリの取得
 以下の要領で、レポジトリを取得してローカルにソースコードを持ってきます.
 ```
+# リポジトリをクローン.
 git clone https://github.com/yoheimune-python-lecture/hand-written-digit-recognition.git
-
-# ダウンロードしたフォルダに映る
+```
+ローカルへクローン（=ダウンロード)したら、 `hand-written-digit-recognition` フォルダができるので、移動しておきます。
+```
+# ダウンロードしたフォルダへ移動.
 cd hand-written-digit-recognition
 ```
 ## 必要ライブラリのインストール
