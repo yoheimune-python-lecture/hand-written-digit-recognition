@@ -3,7 +3,7 @@
 """
 import os
 from sklearn import svm, metrics
-from sklearn.externals import joblib
+import joblib
 
 # 学習用データの数
 SIZE_TRAINING = 500
