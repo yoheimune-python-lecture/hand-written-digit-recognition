@@ -1,5 +1,5 @@
 from os import path
-from sklearn.externals import joblib
+import joblib
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
