@@ -51,6 +51,6 @@ http://localhost:5002
 上記が完成しましたら、学習サンプル数を変更してみたり、他のアルゴリズムを試したりとぜひ遊んでみてください。
 
 # 課題の答え
-課題の答えは、以下のディレクトリにありますので、適宜ご確認ください。  
+課題の答えは、以下にありますので、適宜ご確認ください。  
 
-[課題の答えはこちら](https://github.com/yoheimune-python-lecture/hand-written-digit-recognition/tree/master/answer)  
+[課題の答えはこちら](https://github.com/yoheimune-python-lecture/hand-written-digit-recognition-answer)  

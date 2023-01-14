@@ -1,3 +1,0 @@
-[submodule "answer"]
-	path = answer
-	url = git@github.com:yoheimune-python-lecture/hand-written-digit-recognition-answer.git
